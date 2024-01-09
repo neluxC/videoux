@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.video-container {
+    position: relative;
+}
+
+video {
+    width: 100%;
+}
+
+.promotion {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.promotion img {
+    max-width: 100%;
+    height: auto;
+}
+
+.promotion p {
+    margin: 0;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEOUX</title>
+</head>
+<body>
+    <div class="video-container">
+        <video controls>
+            <source src="videoux.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="promotion">
+            <img src="donate.png" alt="Promotion Image">
+            <p>scan the qr code in your gcash account and donate, thank you very much<br>(Full screen to remove the popup)</p>
+        </div>
+    </div>
+</body>
+</html>
